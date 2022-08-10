@@ -16,6 +16,7 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jest": "^26.8.2",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "gh-pages": "^4.0.0",
     "husky": "^8.0.1",
     "prettier": "^2.7.1",
     "react": "^18.2.0",
@@ -34,6 +35,8 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "precommit": "yarn format && yarn lint && yarn test --watchAll=false",
+    "predeploy": "yarn precommit && yarn build",
+    "deploy": "gh-pages -d build",
     "prepare": "husky install"
   },
   "eslintConfig": {
@@ -53,5 +56,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "homepage": "https://noname774300.github.io/cra-boilerplate/"
 }

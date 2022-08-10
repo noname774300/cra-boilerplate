@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/cra-boilerplate/static/css/main.073c9b0a.css",
+    "main.js": "/cra-boilerplate/static/js/main.9683e4dd.js",
+    "static/js/787.6d24455e.chunk.js": "/cra-boilerplate/static/js/787.6d24455e.chunk.js",
+    "static/media/logo.svg": "/cra-boilerplate/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/cra-boilerplate/index.html",
+    "main.073c9b0a.css.map": "/cra-boilerplate/static/css/main.073c9b0a.css.map",
+    "main.9683e4dd.js.map": "/cra-boilerplate/static/js/main.9683e4dd.js.map",
+    "787.6d24455e.chunk.js.map": "/cra-boilerplate/static/js/787.6d24455e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.9683e4dd.js"
+  ]
+}

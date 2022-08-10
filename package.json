@@ -29,7 +29,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "precommit": "yarn test --watchAll=false",
+    "format": "prettier . --check",
+    "format:fix": "prettier . --write",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "precommit": "yarn format && yarn lint && yarn test --watchAll=false",
     "prepare": "husky install"
   },
   "eslintConfig": {
